@@ -1,0 +1,6 @@
+SET AppName=alist
+SET AppPath=d:\softapp\alist\
+nircmdc64 shortcut "%AppPath%%AppName%安裝.CMD" "~$folder.desktop$" "Alist更新">NUL 2>NUL
+nircmdc64 shortcut "%AppPath%%AppName%卸载.CMD" "~$folder.desktop$" "Alist卸载">NUL 2>NUL
+nircmdc64 urlshortcut "http://127.0.0.1:5244" "~$folder.desktop$" "Alist后台">NUL 2>NUL
+nircmdc64 shortcut "%AppPath%/password.txt" "~$folder.desktop$" "Alist密碼"

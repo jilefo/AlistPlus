@@ -1,0 +1,2 @@
+nssm install AlistDriveService
+nssm start AlistDriveService
