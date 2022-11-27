@@ -1,6 +1,6 @@
 git config --global user.name "jilefo"
 git config --global user.email "jilefo@outlook.com"
-git remote add gitee git@gitee.com:jilefo/Alistman.git
+git remote add gitee git@gitee.com:jilefo/AlistPlus.git
 rem git pull --rebase origin master
 rem git pull --rebase github master
 git add .
