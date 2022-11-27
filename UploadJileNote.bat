@@ -1,3 +1,4 @@
+git init
 git config --global user.name "jilefo"
 git config --global user.email "jilefo@outlook.com"
 git remote add gitee git@gitee.com:jilefo/AlistPlus.git
